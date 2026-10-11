@@ -19,7 +19,8 @@ body {
 .bottom-tall {
     height: 250px;
 }
-.bottom-small-width {
-    height: 113px;
-    width: 985px;
+.poster-box,
+.logo-box,
+.game-box {
+    height: 250px;
 }
