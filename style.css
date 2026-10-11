@@ -1,0 +1,26 @@
+
+body {
+    background-color: #d9d9d9;
+}
+
+.box {
+    background-color: #929090;
+    width: 100%;
+}
+.top-tall {
+    height: 350px;
+}
+
+.top-small {
+    height: 163px;
+}
+.bottom-small {
+    height: 113px;
+}
+.bottom-tall {
+    height: 250px;
+}
+.bottom-small-width {
+    height: 113px;
+    width: 985px;
+}
