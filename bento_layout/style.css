@@ -1,17 +1,38 @@
 body {
     background-color: #d9d9d9;
+    background-image: linear-gradient(rgba(217, 217, 217, 0.65), rgba(217, 217, 217, 0.65)), url("images/sakura.jpeg");;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
-
 .box {
-    background-color: #929090;
+    background-color: #d6d3d3;
+    background-image: linear-gradient(rgba(217, 217, 217, 0.65), rgba(217, 217, 217, 0.65)), url("images/bamboo.jpg");
     width: 100%;
 }
-.top-tall {
+.top-tall-steak {
     height: 350px;
+    background-image: url("/images/steak.png");
+    background-image: linear-gradient(rgba(217, 217, 217, 0.65), rgba(217, 217, 217, 0.65)), url("images/bamboo.jpg");
+    background-size: cover;
 }
-
-.top-small {
-    height: 163px;
+.top-tall-rice{
+    height: 350px;
+    background-image: url("/images/rice.png");
+    background-image: linear-gradient(rgba(217, 217, 217, 0.65), rgba(217, 217, 217, 0.65)), url("images/bamboo.jpg");
+    background-size: cover;
+}
+.top-small-cookies{
+    height: 150px;
+    background-image: url("/images/cookies.png");
+    background-image: linear-gradient(rgba(217, 217, 217, 0.65), rgba(217, 217, 217, 0.65)), url("images/bamboo.jpg");
+}
+.top-small-apples {
+    height: 177px;
+    background-image: url("/images/apples.png");
+    background-image: linear-gradient(rgba(217, 217, 217, 0.65), rgba(217, 217, 217, 0.65)), url("images/bamboo.jpg");
+    background-size: cover;
 }
 .bottom-small {
     height: 113px;
