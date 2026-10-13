@@ -137,7 +137,7 @@ body {
     justify-content: right;
 }
 .bottom-tall-more {
-    height: 250px;
+    height: 270px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -150,13 +150,13 @@ body {
     text-align: center;
 }
 .bottom-tall-more img {
-    height: 300px;
-    width: 145px;
+    height: 200px;
+    width: 300px;
     object-fit:contain;
     object-position: center; 
 }
 .bottom-tall-cake {
-    height: 250px;
+    height: 270px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -180,7 +180,7 @@ body {
     font-size: 16px;
 }
 .bottom-tall-salad {
-    height: 250px;
+    height: 270px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -204,7 +204,7 @@ body {
     font-size: 16px;
 }
 .bottom-tall-diet {
-    height: 250px;
+    height: 270px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
