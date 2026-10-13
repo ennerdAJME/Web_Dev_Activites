@@ -1,42 +1,87 @@
 body {
     background-color: #d9d9d9;
     background-image: linear-gradient(rgba(217, 217, 217, 0.65), rgba(217, 217, 217, 0.65)), url("images/sakura.jpeg");;
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 .box {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
     background-color: #d6d3d3;
     background-image: linear-gradient(rgba(217, 217, 217, 0.65), rgba(217, 217, 217, 0.65)), url("images/bamboo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.box img {
+    display: block;
     width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }
 .top-tall-steak {
     height: 350px;
-    background-image: url("/images/steak.png");
-    background-image: linear-gradient(rgba(217, 217, 217, 0.65), rgba(217, 217, 217, 0.65)), url("images/bamboo.jpg");
-    background-size: cover;
+}
+.top-tall-steak img {
+    height: 225px;
+    width: 500px;
+    object-fit:contain;
+    object-position: bottom right;
 }
 .top-tall-rice{
     height: 350px;
-    background-image: url("/images/rice.png");
-    background-image: linear-gradient(rgba(217, 217, 217, 0.65), rgba(217, 217, 217, 0.65)), url("images/bamboo.jpg");
-    background-size: cover;
+}
+.top-tall-rice img {
+    height: 350px;
+    width: 500px;
+    object-fit:contain;
+    object-position: bottom;
 }
 .top-small-cookies{
     height: 150px;
-    background-image: url("/images/cookies.png");
-    background-image: linear-gradient(rgba(217, 217, 217, 0.65), rgba(217, 217, 217, 0.65)), url("images/bamboo.jpg");
+}
+.top-small-cookies img {
+    height: 90px;
+    width: 500px;
+    object-fit:contain;
+    object-position: bottom right; 
 }
 .top-small-apples {
     height: 177px;
-    background-image: url("/images/apples.png");
-    background-image: linear-gradient(rgba(217, 217, 217, 0.65), rgba(217, 217, 217, 0.65)), url("images/bamboo.jpg");
-    background-size: cover;
 }
-.bottom-small {
-    height: 113px;
+.top-small-apples img {
+    height: 100px;
+    width: 500px;
+    object-fit:contain;
+    object-position: bottom left; 
 }
-.bottom-tall {
+.bottom-tall-more {
+    height: 250px;
+}
+.bottom-tall-cake {
+    height: 250px;
+}
+.bottom-tall-cake img {
+    height: 120px;
+    width: 500px;
+    object-fit:contain;
+    object-position: bottom right; 
+}
+.bottom-tall-salad {
+    height: 250px;
+}
+.bottom-tall-salad img {
+    height: 130px;
+    width: 500px;
+    object-fit:contain;
+    object-position: bottom left; 
+}
+.bottom-tall-diet {
     height: 250px;
 }
